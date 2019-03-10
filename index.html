@@ -1,15 +1,36 @@
 ---
 layout: default
 ---
+<style>
+  .index-section-image {
+    display: table-cell;
+    width: 100%; 
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+
+  html:not(.no-js) .index-section:first-of-type .index-section-image img:not(.loaded),
+  html:not(.no-js) .index-section:first-of-type .sqs-block-image img[data-load="false"]:not(.loaded) {
+    opacity: 100;
+
+  }
+
+  .index-section-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+</style>
 <main id="page" role="main">
   <div id="content" class="main-content" data-content-field="main-content" data-collection-id="5a5b4a0524a69410fa9945cc">
     <div id="new-page-section" class="index-section page" data-url-id="new-page" data-collection-id="5a98295724a69411ba12f360"
       data-edit-main-image="Background">
       <div class="index-section-wrapper has-main-media has-main-image">
         <div class="index-section-image content-fill">
-          <img data-src="https://static1.squarespace.com/static/5a1a76946f4ca3e5e9a57013/t/5a983b4b8165f5542e622ef3/1519926115712/matthew-henry-135657-unsplash.jpg"
-            data-image="https://static1.squarespace.com/static/5a1a76946f4ca3e5e9a57013/t/5a983b4b8165f5542e622ef3/1519926115712/matthew-henry-135657-unsplash.jpg"
-            data-image-dimensions="2500x1667" data-image-focal-point="0.5,0.5" alt="matthew-henry-135657-unsplash.jpg" />
+          <img src="../img/landing.jpg" data-loader="false" data-image="../img/landing.jpg" data-image-dimensions="2500x1667"
+            data-image-focal-point="0.5,0.5" alt="matthew-henry-135657-unsplash.jpg" />
         </div>
         <div class="index-image-overlay"></div>
         <div class="content page-content has-main-media has-main-image tmpl-loading" id="new-page-page" data-url-id="new-page">
@@ -50,9 +71,8 @@ layout: default
                         <div class="intrinsic" style="max-width:500.0px;">
                           <div style="padding-bottom:80.0%;" class="image-block-wrapper   has-aspect-ratio"
                             data-description="">
-                            <noscript><img src="https://static1.squarespace.com/static/5a1a76946f4ca3e5e9a57013/t/5ab63c0c0e2e7293d14983a0/1521893333976/nomadslandingtiny.jpg"
-                                alt="nomadslandingtiny.jpg" /></noscript><img class="thumb-image" data-src="https://static1.squarespace.com/static/5a1a76946f4ca3e5e9a57013/t/5ab63c0c0e2e7293d14983a0/1521893333976/nomadslandingtiny.jpg"
-                              data-image="https://static1.squarespace.com/static/5a1a76946f4ca3e5e9a57013/t/5ab63c0c0e2e7293d14983a0/1521893333976/nomadslandingtiny.jpg"
+                            <img src="../img/nomadslandingtiny.jpg" alt="nomadslandingtiny.jpg" /><img class="thumb-image"
+                              src="../img/nomadslandingtiny.jpg" data-image="../img/nomadslandingtiny.jpg"
                               data-image-dimensions="500x400" data-image-focal-point="0.5,0.5" alt="nomadslandingtiny.jpg"
                               data-load="false" data-image-id="5ab63c0c0e2e7293d14983a0" data-type="image" />
                           </div>
@@ -64,14 +84,14 @@ layout: default
                 <div class="col sqs-col-6 span-6">
                   <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-5281f8f8ff080f0ddd0a">
                     <div class="sqs-block-content">
-                      <h2 style="text-align: center; white-space: pre-wrap;">What is nomads</h2>
-                      <p style="text-align: center; white-space: pre-wrap;">As the largest car ad network in
+                      <h2 style="text-align: center;">What is nomads</h2>
+                      <p style="text-align: center;">As the largest car ad network in
                         Malta, we reach areas other media cannot. Our ever growing fleet of drivers is the
                         perfect way to make the most of your advertising material.</p>
-                      <p style="text-align: center; white-space: pre-wrap;">With unmatched geographic and
+                      <p style="text-align: center;">With unmatched geographic and
                         demographic reach, we can get your ads into those hard to reach areas at a fraction of
                         the cost.</p>
-                      <p style="text-align: center; white-space: pre-wrap;">Simply send us your campaign, and
+                      <p style="text-align: center;">Simply send us your campaign, and
                         we'll work together to find the ideal windshields to place your adverts on.</p>
                     </div>
                   </div>
@@ -101,20 +121,20 @@ layout: default
                 <div class="col sqs-col-12 span-12">
                   <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1521886559058_5329">
                     <div class="sqs-block-content">
-                      <h3 style="text-align: center; white-space: pre-wrap;">Advertise with us</h3>
-                      <p style="text-align: center; white-space: pre-wrap;">With access to a large fleet of
+                      <h3 style="text-align: center;">Advertise with us</h3>
+                      <p style="text-align: center;">With access to a large fleet of
                         drivers that travel across all of Malta, we can get your message to your target audience
                         at a fraction the cost of other media.</p>
-                      <p style="text-align: center; white-space: pre-wrap;">Empower your message through roaming
+                      <p style="text-align: center;">Empower your message through roaming
                         brand ambassadors to increase organic referrals and word of mouth.</p>
-                      <p style="text-align: center; white-space: pre-wrap;">Nomads is the optimally targeted,
+                      <p style="text-align: center;">Nomads is the optimally targeted,
                         cost effective and highly visible medium for your message.</p>
                     </div>
                   </div>
                   <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1521886559058_26347">
                     <div class="sqs-block-content">
                       <div class="sqs-block-button-container--center" data-alignment="center" data-button-size="small">
-                        <a href="/advertiser" class="sqs-block-button-element--small sqs-block-button-element">Learn
+                        <a href="{{site.baseurl}}/advertisers.html" class="sqs-block-button-element--small sqs-block-button-element">Learn
                           more</a>
                       </div>
                     </div>
