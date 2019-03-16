@@ -1,2 +1,2 @@
-baseurl: /guerrilla-nomads
+baseurl: /
 exclude: ['README.md', 'LICENSE', '.gitignore']
