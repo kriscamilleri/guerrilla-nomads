@@ -16,12 +16,25 @@ layout: default
 
   }
 
-  .index-section-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+  .index-section-image {
+    display: -webkit-flex; /* Safari */  
+    display: flex;
+    -webkit-align-items: center; /* Safari 7.0+ */
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+
   }
+
+  .index-section-image img{
+    vertical-align: middle;
+    max-width:1800px;
+    min-width: 600px;
+    text-align: center;     /* will center text in <p>, which is not a flex item */
+  }
+
+
 </style>
 <main id="page" role="main">
   <div id="content" class="main-content" data-content-field="main-content" data-collection-id="5a5b4a0524a69410fa9945cc">
@@ -29,8 +42,8 @@ layout: default
       data-edit-main-image="Background">
       <div class="index-section-wrapper has-main-media has-main-image">
         <div class="index-section-image content-fill">
-          <img src="{{site.baseurl}}/img/landing.jpg" data-loader="false" data-image="{{site.baseurl}}/img/landing.jpg" data-image-dimensions="2500x1667"
-            data-image-focal-point="0.5,0.5" alt="matthew-henry-135657-unsplash.jpg" />
+          <img src="{{site.baseurl}}/img/undraw_by_my_car_ttge.svg" data-loader="false" data-image="{{site.baseurl}}/img/undraw_by_my_car_ttge.svg.jpg" data-image-dimensions="2500x1667"
+            data-image-focal-point="0.5,0.5" alt="landing logo - undraw" />
         </div>
         <div class="index-image-overlay"></div>
         <div class="content page-content has-main-media has-main-image tmpl-loading" id="new-page-page" data-url-id="new-page">
@@ -63,6 +76,21 @@ layout: default
                   </div>
                 </div>
               </div>
+              <div class="col sqs-col-6 span-6">
+                <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-5281f8f8ff080f0ddd0a">
+                  <div class="sqs-block-content">
+                    <h2 style="text-align: center;">What is nomads</h2>
+                    <p style="text-align: center;">As the largest car ad network in
+                      Malta, we reach areas other media cannot. Our ever growing fleet of drivers is the
+                      perfect way to make the most of your advertising material.</p>
+                    <p style="text-align: center;">With unmatched geographic and
+                      demographic reach, we can get your ads into those hard to reach areas at a fraction of
+                      the cost.</p>
+                    <p style="text-align: center;">Simply send us your campaign, and
+                      we'll work together to find the ideal windshields to place your adverts on.</p>
+                  </div>
+                </div>
+              </div>
               <div class="row sqs-row">
                 <div class="col sqs-col-6 span-6">
                   <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_1_1520006152994_28068">
@@ -71,8 +99,8 @@ layout: default
                         <div class="intrinsic" style="max-width:500.0px;">
                           <div style="padding-bottom:80.0%;" class="image-block-wrapper   has-aspect-ratio"
                             data-description="">
-                            <img src="{{site.baseurl}}/img/nomadslandingtiny.jpg" alt="nomadslandingtiny.jpg" /><img class="thumb-image"
-                              src="{{site.baseurl}}/img/nomadslandingtiny.jpg" data-image="{{site.baseurl}}/img/nomadslandingtiny.jpg"
+                            <img src="{{site.baseurl}}/img/undraw_fast_car_p4cu.svg" alt="undraw_fast_car_p4cu.svg" /><img class="thumb-image"
+                              src="{{site.baseurl}}/img/undraw_fast_car_p4cu.svg" data-image="{{site.baseurl}}/img/undraw_fast_car_p4cu.svg"
                               data-image-dimensions="500x400" data-image-focal-point="0.5,0.5" alt="nomadslandingtiny.jpg"
                               data-load="false" data-image-id="5ab63c0c0e2e7293d14983a0" data-type="image" />
                           </div>
@@ -81,21 +109,7 @@ layout: default
                     </div>
                   </div>
                 </div>
-                <div class="col sqs-col-6 span-6">
-                  <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-5281f8f8ff080f0ddd0a">
-                    <div class="sqs-block-content">
-                      <h2 style="text-align: center;">What is nomads</h2>
-                      <p style="text-align: center;">As the largest car ad network in
-                        Malta, we reach areas other media cannot. Our ever growing fleet of drivers is the
-                        perfect way to make the most of your advertising material.</p>
-                      <p style="text-align: center;">With unmatched geographic and
-                        demographic reach, we can get your ads into those hard to reach areas at a fraction of
-                        the cost.</p>
-                      <p style="text-align: center;">Simply send us your campaign, and
-                        we'll work together to find the ideal windshields to place your adverts on.</p>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
               <div class="row sqs-row">
                 <div class="col sqs-col-12 span-12">
