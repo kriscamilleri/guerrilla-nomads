@@ -111,6 +111,16 @@ fraction of the cost." />
                             text-align: center;
                         }
 
+                        @media only screen and (min-width: 600px) {
+                            .landing-text-banner {
+                                margin-top: 7vh !important;
+                            }
+                        }
+                        .index-section-image img{
+                            min-height: 20vh;
+                            min-width: 640px;
+                        }
+
                         {% if page.path !="index.html" %}
 
                         #page {
@@ -127,7 +137,7 @@ fraction of the cost." />
                             background-color: #100806;
                             position: relative !important;
                         }
-
+                        
                         {% endif %}
                     </style>
                 </div>
